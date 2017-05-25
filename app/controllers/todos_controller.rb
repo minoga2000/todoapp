@@ -1,6 +1,5 @@
 class TodosController < ApplicationController
   before_action :set_todo, only: [:edit, :update, :show, :destroy]
-  
   def new
     @todo = Todo.new
   end
